@@ -18,14 +18,14 @@ function App() {
   };
 
   return (
-    <MantineProvider withGlobalStyles withNormalizeCSS>
+    <MantineProvider withGlobalStyles  >
       <div className="flex flex-col items-center justify-center min-h-screen py-5">
         <form onSubmit={handleFetchSynonyms} className="flex flex-col">
           <label
             className="block text-sm font-medium text-gray-700 text-2xl"
             htmlFor="word-input"
           >
-            Your Word
+            Your Word type here
           </label>
           <input
             value={word}
